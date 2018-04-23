@@ -1266,6 +1266,10 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
+"eslint-config-hackreactor@git://github.com/reactorcore/eslint-config-hackreactor":
+  version "1.0.0"
+  resolved "git://github.com/reactorcore/eslint-config-hackreactor#9111851f7214ed3e2817542b3777765bda3df98d"
+
 eslint-scope@^3.7.1:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-3.7.1.tgz#3d63c3edfda02e06e01a452ad88caacc7cdcb6e8"
