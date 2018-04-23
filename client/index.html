@@ -1,10 +1,26 @@
 <DOCTYPE html!>
   <html>
-    <header>
+    <head>
       <title>Airbnb Proxy Server</title>
-    </header>
+    </head>
     <body>
-
+      <div id="Photos"></div>
+      <div id="Description"></div>
+      <div id="Reservations"></div>
+      <div id="Reviews"></div>
+      <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+      <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+      <script src="http://localhost:3000/app.jsx"></script>
+      <script src="http://localhost:3001/app.jsx"></script>
+      <script src="http://localhost:3002/app.jsx"></script>
+      <script src="http://localhost:3003/app.jsx"></script>
+      <script src="bundle.js"></script>
+      <script>
+        ReactDOM.render(React.createElement(Photos), document.getElementById('Photos'));
+        ReactDOM.render(React.createElement(Description), document.getElementById('Description'));
+        ReactDOM.render(React.createElement(Reservations), document.getElementById('Reservations'));
+        ReactDOM.render(React.createElement(Reviews), document.getElementById('Reviews'));
+      </script>
     </body>
   </html>
 </DOCTYPE>
