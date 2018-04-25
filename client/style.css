@@ -1,18 +1,16 @@
 #description {
-  margin-bottom: 100px;
-  position: absolute;
+  margin-bottom: 40px;
   width: 60%;
 }
 
 #wrapper {
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #reservation {
-  float: right;
+  margin-bottom: 10px;
 } 
 
 #Reviews {
-  display: block;
 }
